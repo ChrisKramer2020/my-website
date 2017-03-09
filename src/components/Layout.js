@@ -1,19 +1,20 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router'
-import CommentBox from './CommentBox'
-class App extends Component {
+
+class Layout extends Component {
+  static propTypes = {
+    children: React.PropTypes.element.isRequired
+  }
+
   render () {
-    return <div>
+    return <div id='page-wrapper'>
       <ul id='menu'>
         <Link to='/'><li>Home</li></Link>
         <Link to='/'><li>Mens</li></Link>
         <Link to='/'><li>Sale</li></Link>
-        <a href='#menu'>Open Menu</a>
-        <a href='#'>Close Menu</a>
       </ul>
-      {CommentBox}
     </div>
   }
 }
 
-export default App
+export default Layout

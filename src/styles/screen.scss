@@ -12,3 +12,17 @@ body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
 }
+
+li {
+  list-style-type: none;
+}
+
+#menu {
+  transition: 1s;
+  position: absolute;
+  left: -200px;
+}
+
+#menu:target {
+  left: 0;
+}
