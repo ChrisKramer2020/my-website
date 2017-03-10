@@ -11,16 +11,68 @@ body {
   @include font-smoothing(on);
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
+  background-color: #333;
 }
 
 li {
   list-style-type: none;
 }
 
+label {
+  left: 120px;
+  position: relative;
+}
+
+textarea {
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  background-color:rgba(46, 46, 46, 0.16) ;
+  left: 100px;
+  position: relative;
+  align-content: center;
+  margin: 20px;
+}
+
+#post {
+  position: relative;
+  left: 170px;
+}
+
+#comment-form-wrapper {
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  top: 400px;
+  justify-content: space-between;
+  flex: 1;
+}
+
+#page-wrapper {
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+}
+
+#menu-info {
+  color: white;
+  background-color: rgb(67, 73, 68);
+  padding: 28px;
+  position: relative;
+  left: -35px;
+  font-size: 14px;
+}
+
 #menu {
   transition: 1s;
-  position: absolute;
-  left: -200px;
+  list-style-type: none;
+  color: rgb(74, 69, 80);
+  flex-direction: column;
+  display: flex;
+  position: fixed;
 }
 
 #menu:target {
