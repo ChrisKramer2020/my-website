@@ -11,7 +11,7 @@ body {
   @include font-smoothing(on);
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
-  background-color: #333;
+  // background-color: rgb(207, 207, 207)
 }
 
 li {
