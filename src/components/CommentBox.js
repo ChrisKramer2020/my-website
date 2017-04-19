@@ -53,20 +53,21 @@ class Comment extends Component {
   constructor () {
     super()
     this.state = {
-      isAbusive: false
+      isAbusive: false,
+      body: []
     }
   }
-  render () {
+  render (props) {
     let commentBody
     if (!this.state.isAbusive) {
-      commentBody = this.props.body
+      commentBody = props.body
     } else {
       commentBody = <em>Content Marked as abusive</em>
     }
     return (
       <div className='comment'>
-        <img src={this.props.avatarUrl} alt={`${this.props.author}'s picture`} />
-        <p className='comment-header'>{this.props.author}</p>
+        <img src={props.avatarUrl} alt={`${props.author}'s picture`} />
+        <p className='comment-header'>{props.author}</p>
         <p className='comment-body'>
           {commentBody}
         </p>
