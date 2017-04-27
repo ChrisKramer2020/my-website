@@ -11,9 +11,17 @@ body {
   @include font-smoothing(on);
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
-  background-color: rgb(207, 207, 207)
+  background-color: #f5f5f5;
 }
 
 li {
   list-style-type: none;
+}
+
+h2 {
+
+}
+
+#img {
+  border-radius: 50%;
 }
