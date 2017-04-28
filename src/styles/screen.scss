@@ -7,21 +7,174 @@ html {
   text-size-adjust: 100%;
 }
 
+img {
+  position: relative;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
 body {
   @include font-smoothing(on);
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
-  background-color: #f5f5f5;
+  // background-color: #f5f5f5;
+  background-color: rgb(51, 108, 161);
 }
 
 li {
   list-style-type: none;
 }
 
+#welcome {
+  font-size: 38px;
+  font-family: 'Lobster', cursive;
+  padding:18px;
+}
+
 h2 {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h3 {
+  position: relative;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 28px;
+  margin-bottom: 100px;
+}
+
+#pic {
+  position: relative;
+  left: 500px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  border-width: 12px solid thick black;
+}
+
+p {
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+#hello {
+  font-size: 22px;
+  margin-bottom: 200px;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  padding: 18px;
+}
+
+#quoteOne {
+// font-family: 'Inconsolata', monospace;
+// font-family: 'Anton', sans-serif;
+font-size: 28px;
+margin-bottom: 100px;
+// font-family: 'Lobster', cursive;
+font-family: 'Crimson Text', serif;
+// font-family: 'Dancing Script', cursive;
+// font-family: 'Passion One', cursive;
+// font-family: 'Righteous', cursive;
+}
+
+#quoteTwo {
+  font-size: 25px;
+  margin-bottom: 100px;
+  font-family: 'Crimson Text', serif;
+}
+
+#quoteThree {
+  font-size: 25px;
+  margin-bottom: 100px;
+  font-family: 'Crimson Text', serif;
+}
+
+#skillsDescription {
+  font-size: 22px;
+  margin-bottom: 100px;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
 
 }
 
-#img {
-  border-radius: 50%;
+
+#skillSet {
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 1;
+  display: flex;
+  margin: 50px;
+  padding: 50px;
+}
+
+#skillsHeader {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 28px;
+}
+
+#examples {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 1;
+  margin: 100px;
+}
+
+#projects {
+
+}
+
+#goals {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  position: relative;
+  flex:1;
+  margin-bottom: 100px;
+}
+
+#insideTheMind {
+  margin-bottom: 100px;
+}
+
+#nKorea {
+  margin-bottom: 25px;
+}
+
+#Musk {
+  margin-bottom: 25px;
+}
+
+#upperBody {
+  margin-bottom: 25px;
+}
+
+#techNews {
+  margin-bottom: 25px;
+}
+
+#nKoreaImg {
+  align-items: center;
+}
+
+#MuskImg {
+  align-items: center;
+
+}
+
+#techNewsImg {
+  align-items: center;
+
+}
+
+#fitnessImg {
+  align-items: center;
+
 }
