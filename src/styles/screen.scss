@@ -47,7 +47,7 @@ a:hover {
 
 #first {
   // background-color: #f5f5f5;
-  background-color: black;
+  // background-color: black;
   margin: 50px;
   margin-top: 30px;
    :hover {
@@ -57,16 +57,17 @@ a:hover {
 
 #I {
   font-size: 22px;
+  padding: 20px;
 }
 
 h3 {
-  color: #f5f5f5;
+  // color: #f5f5f5;
 }
 
 #welcome {
   font-size: 38px;
   font-family: 'Lobster', cursive;
-  color: #f5f5f5;
+  // color: #f5f5f5;
   padding:18px;
 }
 
@@ -103,7 +104,7 @@ p {
 }
 
 #bio {
-  background-color: black;
+  // background-color: black;
   margin: 50px;
   padding: 20px;
 }
@@ -122,6 +123,8 @@ p {
 // font-family: 'Anton', sans-serif;
 font-size: 28px;
 color: white;
+position: relative;
+margin-top: 100px;
 margin-bottom: 200px;
 // font-family: 'Lobster', cursive;
 font-family: 'Crimson Text', serif;
@@ -189,7 +192,7 @@ font-family: 'Crimson Text', serif;
   align-items: center;
   align-content: center;
   flex-direction: column;
-  background-color: black;
+  // background-color: black;
   margin: 50px;
   position: relative;
   flex:1;
@@ -245,7 +248,7 @@ font-family: 'Crimson Text', serif;
 }
 
 #foot {
-background-color: black;
+// background-color: black;
 height: 500px;
 margin: 50px;
 }
