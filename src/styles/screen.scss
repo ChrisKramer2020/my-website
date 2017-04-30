@@ -26,12 +26,18 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:link {
-  color: red;
+  color: white;
+  text-decoration: none;
 }
 
 a:visited {
-  color: green;
+  color: white;
+  text-decoration: none;
 }
 
 #welcome {
@@ -154,35 +160,57 @@ font-family: 'Crimson Text', serif;
 
 #nKorea {
   margin-bottom: 25px;
+  margin-top: 25px;
+  font-size: 24px;
 }
 
 #Musk {
   margin-bottom: 25px;
+  margin-top: 25px;
+  font-size: 24px;
 }
 
 #upperBody {
   margin-bottom: 25px;
+  margin-top: 25px;
+  font-size: 24px;
 }
 
 #techNews {
   margin-bottom: 25px;
+  font-size: 24px;
+  margin-top: 25px;
 }
 
 #nKoreaImg {
   align-items: center;
+  border-radius: 100%;
 }
 
 #MuskImg {
   align-items: center;
-
+  border-radius: 100%;
 }
 
 #techNewsImg {
   align-items: center;
-
+  border-radius: 100%;
 }
 
 #fitnessImg {
   align-items: center;
+  border-radius: 100%;
+}
 
+#foot {
+background-color: black;
+height: 300px;
+}
+
+#copyright {
+  color: white;
+  text-align: center;
+  position: relative;
+  font-size: 22px;
+  bottom: -200px;
 }
