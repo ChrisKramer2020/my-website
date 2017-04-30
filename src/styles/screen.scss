@@ -40,6 +40,20 @@ a:visited {
   text-decoration: none;
 }
 
+a:hover {
+  color: rgb(227, 192, 64);
+
+}
+
+#first {
+  background-color: #f5f5f5;
+  margin: 5px;
+  margin-top: 30px;
+   :hover {
+
+   }
+}
+
 #welcome {
   font-size: 38px;
   font-family: 'Lobster', cursive;
@@ -63,10 +77,13 @@ h3 {
 
 #pic {
   position: relative;
-  left: 500px;
-  margin-bottom: 30px;
-  border-radius: 50%;
-  border-width: 12px solid thick black;
+  border-radius: 0%;
+  border: 12px solid thick black;
+  align-content: center;
+  align-items: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 p {
@@ -75,9 +92,16 @@ p {
   text-align: center;
 }
 
+#bio {
+  background-color: black;
+  margin: 5px;
+  padding: 20px;
+}
+
 #hello {
   font-size: 22px;
   margin-bottom: 200px;
+  color: white;
   text-align: center;
   font-family: 'Crimson Text', serif;
   padding: 18px;
@@ -87,7 +111,8 @@ p {
 // font-family: 'Inconsolata', monospace;
 // font-family: 'Anton', sans-serif;
 font-size: 28px;
-margin-bottom: 100px;
+color: white;
+margin-bottom: 200px;
 // font-family: 'Lobster', cursive;
 font-family: 'Crimson Text', serif;
 // font-family: 'Dancing Script', cursive;
@@ -97,6 +122,7 @@ font-family: 'Crimson Text', serif;
 
 #quoteTwo {
   font-size: 25px;
+  color: white;
   margin-bottom: 100px;
   font-family: 'Crimson Text', serif;
 }
@@ -118,7 +144,7 @@ font-family: 'Crimson Text', serif;
 
 #skillSet {
   justify-content: space-between;
-  flex-direction: row;
+  flex-direction: column;
   flex: 1;
   display: flex;
   margin: 50px;
@@ -149,6 +175,8 @@ font-family: 'Crimson Text', serif;
   align-items: center;
   align-content: center;
   flex-direction: column;
+  background-color: black;
+  margin: 5px;
   position: relative;
   flex:1;
   margin-bottom: 100px;
@@ -184,7 +212,7 @@ font-family: 'Crimson Text', serif;
 
 #nKoreaImg {
   align-items: center;
-  border-radius: 100%;
+  border-radius: 25%;
 }
 
 #MuskImg {
@@ -204,7 +232,8 @@ font-family: 'Crimson Text', serif;
 
 #foot {
 background-color: black;
-height: 300px;
+height: 500px;
+margin: 5px;
 }
 
 #copyright {
