@@ -46,17 +46,27 @@ a:hover {
 }
 
 #first {
-  background-color: #f5f5f5;
-  margin: 5px;
+  // background-color: #f5f5f5;
+  background-color: black;
+  margin: 50px;
   margin-top: 30px;
    :hover {
 
    }
 }
 
+#I {
+  font-size: 22px;
+}
+
+h3 {
+  color: #f5f5f5;
+}
+
 #welcome {
   font-size: 38px;
   font-family: 'Lobster', cursive;
+  color: #f5f5f5;
   padding:18px;
 }
 
@@ -94,7 +104,7 @@ p {
 
 #bio {
   background-color: black;
-  margin: 5px;
+  margin: 50px;
   padding: 20px;
 }
 
@@ -149,6 +159,10 @@ font-family: 'Crimson Text', serif;
   display: flex;
   margin: 50px;
   padding: 50px;
+  transition: all .2s ease-in-out;
+    :hover {
+      transform: scale(1.1);;
+    }
 }
 
 #skillsHeader {
@@ -160,7 +174,7 @@ font-family: 'Crimson Text', serif;
 #examples {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
+  flex-direction: column;
   flex: 1;
   margin: 100px;
 }
@@ -176,7 +190,7 @@ font-family: 'Crimson Text', serif;
   align-content: center;
   flex-direction: column;
   background-color: black;
-  margin: 5px;
+  margin: 50px;
   position: relative;
   flex:1;
   margin-bottom: 100px;
@@ -217,23 +231,23 @@ font-family: 'Crimson Text', serif;
 
 #MuskImg {
   align-items: center;
-  border-radius: 100%;
+  border-radius: 25%;
 }
 
 #techNewsImg {
   align-items: center;
-  border-radius: 100%;
+  border-radius: 25%;
 }
 
 #fitnessImg {
   align-items: center;
-  border-radius: 100%;
+  border-radius: 25%;
 }
 
 #foot {
 background-color: black;
 height: 500px;
-margin: 5px;
+margin: 50px;
 }
 
 #copyright {
