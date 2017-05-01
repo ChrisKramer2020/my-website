@@ -197,6 +197,10 @@ font-family: 'Crimson Text', serif;
   position: relative;
   flex:1;
   margin-bottom: 100px;
+  transition: all .2s ease-in-out;
+    :hover {
+      transform: scale(1.1);
+    }
 }
 
 #insideTheMind {
@@ -207,6 +211,30 @@ font-family: 'Crimson Text', serif;
   margin-bottom: 25px;
   margin-top: 25px;
   font-size: 24px;
+}
+
+#politics {
+  border: 5px solid black;
+  margin: 25px;
+  width: 60%;
+}
+
+#science {
+  border: 5px solid black;
+  margin: 25px;
+  width: 60%;
+}
+
+#fitness {
+  border: 5px solid black;
+  margin: 25px;
+  width: 60%;
+}
+
+#tech {
+  border: 5px solid black;
+  margin: 25px;
+  width: 60%;
 }
 
 #Musk {
@@ -259,4 +287,21 @@ margin: 50px;
   position: relative;
   font-size: 22px;
   bottom: -200px;
+}
+
+#spinningSkills {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+  img {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+        transition:         transform .8s ease-in-out;
+}
+img:hover {
+-webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        transform: rotate(360deg);
+}
 }
