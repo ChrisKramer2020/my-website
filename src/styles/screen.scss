@@ -189,9 +189,11 @@ font-family: 'Crimson Text', serif;
   display: flex;
   margin: 50px;
   padding: 50px;
-  transition: all .2s ease-in-out;
+  transition: transform 3s ease-in-out;
     :hover {
-      transform: scale(1.1);;
+      transform: scale(1.5);
+      transition: transform 1.5s ease-in-out;
+
     }
 }
 
@@ -226,9 +228,9 @@ font-family: 'Crimson Text', serif;
   position: relative;
   flex:1;
   margin-bottom: 100px;
-  transition: all .2s ease-in-out;
+  transition: all .8s ease-in-out;
     :hover {
-      transform: scale(1.1);
+      transform: scale(2.1);
     }
 }
 
