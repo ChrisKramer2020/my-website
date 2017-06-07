@@ -62,3 +62,7 @@
 //         </div> */}
 //
 // // export default App
+class Comment extends React.component {
+  author='Chris Kramer'
+  body='Welcome to my page.'
+}
