@@ -1,7 +1,7 @@
-// // import React, { Component } from 'react'
-// // import { Router, Route, browserHistory } from 'react-router'
-// // import Mens from './Mens'
-// // import Sale from './Sale'
+// import React, { Component } from 'react'
+// import { Router, Route, browserHistory } from 'react-router'
+// import Mens from './Mens'
+// import Sale from './Sale'
 //
 // import CommentBox from './CommentBox'
 //
@@ -45,24 +45,19 @@
 //     </Router>
 //   }
 // }
-//
+// export default App
+
+
 // componentDidMount () {
 //     window.fetch('https://api.github.com/users/chriskramer2020').then((response) => {
-//       return response.json()
-//     }).then((data) => {
-//       this.setState({name: data.name, location: data.location, imageURL: data.avatar_url, bio: data.bio})
-//     })
-//   }
-
-// // {/* <h2>My Current GitHub Chart</h2>
+// //       return response.json()
+// //     }).then((data) => {
+// //       this.setState({name: data.name, location: data.location, imageURL: data.avatar_url, bio: data.bio})
+// //     })
+// //   }
+//
 //         <div className='git'>
 //           <a href='https://github.com/chriskramer2020'>
 //             <Image src='http://ghchart.rshah.org/chriskramer2020' alt='Kramer's GitHub chart' responsive />
 //           </a>
-//         </div> */}
-//
-// // export default App
-class Comment extends React.component {
-  author='Chris Kramer'
-  body='Welcome to my page.'
-}
+//         </div>
